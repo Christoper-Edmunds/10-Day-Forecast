@@ -6,5 +6,5 @@ A simple full stack web app, built with Flask and Sqlite, to display a 10 day we
 # Tools
 Flask, SQLite, Geocoder, SQLalchemy 
 
-#API 
+# API 
 https://open-meteo.com/en/docs#latitude=51.74&longitude=-3.19&hourly=temperature_2m,rain,windspeed_10m
