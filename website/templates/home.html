@@ -1,0 +1,50 @@
+{% extends "base.html" %} 
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %} 
+
+
+
+<form method="POST">
+    <div class="form-group" align="center" style="background-color:rgba(0, 0, 0, 0.76)">
+            <h1>Weather Checker</h1>
+            <label for="Greeting">{{ userGreeting }}</label> 
+            <h4>Current Time</h4>
+                <label for="Time">{{ datetimeString }}</label> 
+                <br />
+                <label for="Hour1_Value">°C: {{ hour1value }} | Rain mm: {{ rain1value }} | Windspeed KM/H: {{ windSpeed1value }}</label> 
+            <br />
+            <br /> 
+                <h5 for="Hour2_Label">Hour 2:</h5> 
+                <label for="Hour2_Value">°C: {{ hour2value }} | Rain mm: {{ rain2value }} | Windspeed KM/H: {{ windSpeed2value }}</label> 
+            <br />
+                <h5 for="Hour3_Label">Hour 3:</h5> 
+                <label for="Hour3_Value">°C: {{ hour3value }} | Rain mm: {{ rain3value }} | Windspeed KM/H: {{ windSpeed3value }}</label> 
+            <br />
+                <h5 for="Hour4_Label">Hour 4:</h5> 
+                <label for="Hour4_Value">°C: {{ hour4value }} | Rain mm: {{ rain4value }} | Windspeed KM/H: {{ windSpeed4value }}</label> 
+            <br />
+                <h5 for="Hour5_Label">Hour 5:</h5> 
+                <label for="Hour5_Value">°C: {{ hour5value }} | Rain mm: {{ rain5value }} | Windspeed KM/H: {{ windSpeed5value }}</label> 
+            <br />
+                <h5 for="Hour6_Label">Hour 6:</h5> 
+                <label for="Hour6_Value">°C: {{ hour6value }} | Rain mm: {{ rain6value }} | Windspeed KM/H: {{ windSpeed6value }}</label> 
+            <br />
+                <h5 for="Hour7_Label">Hour 7:</h5> 
+                <label for="Hour7_Value">°C: {{ hour7value }} | Rain mm: {{ rain7value }} | Windspeed KM/H: {{ windSpeed7value }}</label> 
+            <br />
+                <h5 for="Hour8_Label">Hour 8:</h5> 
+                <label for="Hour8_Value">°C: {{ hour8value }} | Rain mm: {{ rain8value }} | Windspeed KM/H: {{ windSpeed8value }}</label> 
+            <br />
+                <h5 for="Hour9_Label">Hour 9:</h5> 
+                <label for="Hour9_Value">°C: {{ hour9value }} | Rain mm: {{ rain9value }} | Windspeed KM/H: {{ windSpeed9value }}</label> 
+            <br />
+                <h5 for="Hour10_Label">Hour 10:</h5> 
+                <label for="Hour10_Value">°C: {{ hour10value }} | Rain mm: {{ rain10value }} | Windspeed KM/H: {{ windSpeed10value }}</label> 
+
+</form>
+
+</div>
+
+{% endblock %} 
